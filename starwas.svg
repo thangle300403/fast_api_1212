@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+  <defs>
+    <style>
+      .crawl {
+        font-family: Arial Black, Impact, sans-serif;
+        font-weight: 900;
+        fill: #f5c542;
+        text-anchor: middle;
+        letter-spacing: 6px;
+      }
+
+      .big {
+        font-size: 100px;
+      }
+
+      .small {
+        font-size: 60px;
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="url(#space)" />
+
+  <!-- Crawl group -->
+  <g transform="
+      translate(600,600)
+      scale(1,0.65)
+      skewX(0)
+    ">
+
+    <!-- Big top title -->
+    <text class="crawl big" y="-380">
+      DEMONSTRATION
+    </text>
+
+    <!-- Lower lines -->
+    <text class="crawl small" y="-120">
+      <tspan x="0" dy="0">PRODUCT PURCHASE</tspan>
+      <tspan x="0" dy="90">AI CHATBOT</tspan>
+      <tspan x="0" dy="90">VR SHIRT TRY ON</tspan>
+      <tspan x="0" dy="90">AI CHATBOT ADMIN</tspan>
+    </text>
+
+  </g>
+</svg>
