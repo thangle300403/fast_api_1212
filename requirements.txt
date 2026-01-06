@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+python-slugify
+chromadb
+SQLAlchemy
+PyMySQL
+langchain
+langchain-core
+langchain-community
+langchain-openai
+langgraph
+openai
+tiktoken
+python-dotenv
+aiohttp
+requests
+pydantic
